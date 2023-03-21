@@ -12,7 +12,19 @@ function getSumTotal(firstNumber, secondNumber) {
     console.log(result)
 }
 
+function makePie(quantity) {
+    const pie = '🥧'.repeat(quantity)
+    console.log(pie)
+}
+
+function makeAnimal(animal, quantity) {
+    const result = animal.repeat(quantity)
+    console.log(result)
+    return result 
+}
+
 //invoke the function
+// getMeow()
 getSumTotal(2,5);
 getSumTotal(2900,16000000)
 getSumTotal("sym","phony")
@@ -20,6 +32,5 @@ getSumTotal("Back","Forward")
 getSumTotal("Forward","Back")
 message("Jarvis")
 message("cat, who are you?")
-// getMeow()
-// getMeow()
-// getMeow()
+makePie(4000);
+makeAnimal('🦈',500)

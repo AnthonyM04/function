@@ -18,19 +18,19 @@ function makePie(quantity) {
 }
 
 function makeAnimal(animal, quantity) {
-    const result = animal.repeat(quantity)
-    console.log(result)
-    return result 
+    const happyResult = animal.repeat(quantity)
+    console.log(happyResult)
+    return happyResult 
 }
 
 //invoke the function
 // getMeow()
-getSumTotal(2,5);
-getSumTotal(2900,16000000)
-getSumTotal("sym","phony")
-getSumTotal("Back","Forward")
-getSumTotal("Forward","Back")
-message("Jarvis")
-message("cat, who are you?")
-makePie(4000);
-makeAnimal('🦈',500)
+// getSumTotal(2,5);
+// getSumTotal(2900,16000000)
+// getSumTotal("sym","phony")
+// getSumTotal("Back","Forward")
+// getSumTotal("Forward","Back")
+// message("Jarvis")
+// message("cat, who are you?")
+// makePie(4000);
+makeAnimal('🐼',953)
